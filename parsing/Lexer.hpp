@@ -6,7 +6,7 @@
 /*   By: ttanja <ttanja@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/28 15:06:39 by ttanja            #+#    #+#             */
-/*   Updated: 2022/08/28 15:16:17 by ttanja           ###   ########.fr       */
+/*   Updated: 2022/09/04 16:14:07 by ttanja           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ typedef std::pair<std::string, TOCKENS> TockenPair;
 
 class Lexer {
 	private:
-		std::vector<TOckenPair>	_tokens;
+		std::vector<TockenPair>	_tokens;
 		std::string				_trim;
 		size_t					_split;
 
